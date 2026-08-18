@@ -51,10 +51,8 @@ export const Navbar: React.FC<NavbarProps> = ({
           href="#hero"
           className="flex items-center gap-3 group"
         >
-          <div className="relative flex items-center justify-center w-10 h-10 rounded bg-[#0d1323] border border-[#ff2e55]/50 group-hover:border-[#ff2e55] group-hover:shadow-[0_0_15px_rgba(255,46,85,0.5)] transition-all">
-            <span className="font-mono text-sm font-bold text-[#ff2e55] tracking-tighter">
-              {profile.name.split(' ').map(n => n[0]).join('')}
-            </span>
+          <div className="relative flex items-center justify-center w-10 h-10 rounded-full bg-[#0d1323] border border-[#ff2e55]/50 group-hover:border-[#ff2e55] group-hover:shadow-[0_0_15px_rgba(255,46,85,0.5)] transition-all overflow-hidden">
+            <img src="/profile.png" alt={profile.name} className="w-full h-full object-cover object-center" />
             <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-[#00f0ff] rounded-full animate-ping opacity-75" />
             <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-[#00f0ff] rounded-full" />
           </div>

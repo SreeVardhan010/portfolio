@@ -181,10 +181,17 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
                   +[04]
                 </div>
 
-                <div className="w-16 h-16 rounded-full bg-[#ff2e55]/20 border-2 border-[#ff2e55] flex items-center justify-center mb-3 shadow-[0_0_20px_rgba(255,46,85,0.5)] group-hover:scale-105 transition-transform">
-                  <span className="font-mono text-2xl font-black text-[#ff2e55]">
-                    {profile.name.split(' ').map(n => n[0]).join('')}
-                  </span>
+                <div className="relative w-20 h-20 rounded-full border-2 border-[#ff2e55] shadow-[0_0_25px_rgba(255,46,85,0.6)] group-hover:scale-105 transition-transform overflow-hidden mb-2">
+                  <img
+                    src="/profile.png"
+                    alt={profile.name}
+                    className="w-full h-full object-cover object-center"
+                    onError={(e) => {
+                      // Fallback if image fails
+                      (e.target as HTMLElement).style.display = 'none';
+                    }}
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0d1323]/50 to-transparent pointer-events-none" />
                 </div>
 
                 <h3 className="font-mono text-sm font-bold text-white tracking-wider truncate max-w-full px-2">
