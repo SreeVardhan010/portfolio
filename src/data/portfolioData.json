@@ -1,0 +1,217 @@
+{
+  "profile": {
+    "name": "Sreevardhan Capilai",
+    "handle": "SreeVardhan010",
+    "role": "Software Engineer & ML / Data Systems Specialist",
+    "subRole": "CS Undergrad @ SRM University (CGPA 9.05) // XGBoost, Apache Spark, Kafka & Full-Stack Web Systems",
+    "experienceLevel": "SRM CSE '26 // CGPA 9.05/10",
+    "tagline": "Building scalable machine learning pipelines, real-time streaming engines & high-performance web systems.",
+    "summary": "Computer Science undergraduate with hands-on experience engineering machine learning models, big data streaming pipelines, and full-stack web platforms. Proficient in Python, Java, SQL, Apache Spark, Apache Kafka, and TensorFlow. Certified in Machine Learning, Data Science & Data Mining by NPTEL.",
+    "location": "Chennai, India",
+    "availability": "OPEN FOR SOFTWARE & DATA ENGINEERING ROLES",
+    "statusText": "SYSTEM: OPTIMAL // CGPA: 9.05/10 // SRM '26 // ACTIVE",
+    "email": "sreevardhan886@gmail.com",
+    "github": "https://github.com/SreeVardhan010",
+    "linkedin": "https://linkedin.com/in/sreevardhan",
+    "twitter": "https://twitter.com",
+    "resumeUrl": "#",
+    "stats": [
+      {
+        "label": "Academic Excellence",
+        "value": "9.05",
+        "description": "B.Tech CSE CGPA at SRM University",
+        "iconName": "ShieldCheck",
+        "changeIndicator": "Top Tier"
+      },
+      {
+        "label": "Engineering Projects",
+        "value": "4+",
+        "description": "Production ML, Spark, Kafka & Full-Stack",
+        "iconName": "Cpu",
+        "changeIndicator": "Big Data & AI"
+      },
+      {
+        "label": "NPTEL Certifications",
+        "value": "4x",
+        "description": "ML, Data Science, Mining & Algorithms",
+        "iconName": "Activity",
+        "changeIndicator-[#00f0ff]": "Certified"
+      },
+      {
+        "label": "Core Tech Mastery",
+        "value": "Python/Java",
+        "description": "Data Structures, SQL, Spark & React",
+        "iconName": "Zap",
+        "changeIndicator": "Full-Stack"
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "proj-churn-bigdata",
+      "title": "Telecom Customer Churn Prediction Engine",
+      "subtitle": "Big Data streaming & ML pipeline built with XGBoost, SMOTE, Apache Spark & Kafka",
+      "category": "AI / ML",
+      "problem": "Telecommunication providers face high customer attrition with heavily imbalanced dataset distribution, making early churn detection difficult.",
+      "solution": "Engineered an end-to-end churn prediction pipeline using XGBoost with SMOTE resampling, real-time Kafka data ingestion, and Spark ETL processing to power retention dashboards.",
+      "businessImpact": "Significantly boosted predictive recall on at-risk customer segments and enabled real-time churn risk scoring for proactive customer retention.",
+      "metrics": ["Sub-sec Streaming Ingestion", "SMOTE Balanced Recall", "Spark & Kafka ETL"],
+      "techStack": ["Python", "XGBoost", "Apache Spark", "Apache Kafka", "Scikit-Learn", "SQL", "Pandas"],
+      "githubUrl": "https://github.com/SreeVardhan010",
+      "liveDemoUrl": "https://github.com/SreeVardhan010",
+      "architectureNotes": "Utilized Apache Kafka for real-time customer event streaming into Apache Spark structured streaming buffers before scoring with optimized XGBoost classifier models.",
+      "featured": true,
+      "radarScore": 96
+    },
+    {
+      "id": "proj-speech-emotion",
+      "title": "Speech Emotion Recognition (SER) System",
+      "subtitle": "Audio signal deep learning classifier extracting MFCCs & spectrogram features",
+      "category": "AI / ML",
+      "problem": "Raw speech audio signals contain high-dimensional acoustic variations, making emotion classification non-trivial for AI systems.",
+      "solution": "Built an automated audio preprocessing & classification pipeline utilizing librosa for MFCC and spectrogram feature extraction paired with TensorFlow and Scikit-Learn classifiers.",
+      "businessImpact": "Achieved high classification accuracy across emotional states (Happy, Sad, Angry, Neutral) suitable for automated call-center sentiment analysis.",
+      "metrics": ["MFCC Acoustic Features", "Spectrogram Pipeline", "TensorFlow & Scikit"],
+      "techStack": ["Python", "TensorFlow", "Scikit-Learn", "librosa", "NumPy", "Matplotlib", "Jupyter"],
+      "githubUrl": "https://github.com/SreeVardhan010",
+      "liveDemoUrl": "https://github.com/SreeVardhan010",
+      "architectureNotes": "Extracted 40 MFCC coefficients, zero-crossing rates, and chroma features using librosa, fed into neural networks and ensemble classifiers.",
+      "featured": true,
+      "radarScore": 93
+    },
+    {
+      "id": "proj-tomato-food-app",
+      "title": "Tomato: Web-Based Food Delivery Platform",
+      "subtitle": "Full-stack food ordering microservices with Stripe payments & live order tracking",
+      "category": "Full-Stack",
+      "problem": "Local restaurants required an end-to-end web platform for customer ordering, restaurant menu management, and real-time delivery status telemetry.",
+      "solution": "Developed a full-stack web application enabling real-time order placement, restaurant admin tools, live status tracking, and integrated Stripe payment gateway.",
+      "businessImpact": "Streamlined restaurant menu updates and order fulfillment while ensuring secure, instant online transaction processing.",
+      "metrics": ["Stripe Payment Integration", "Real-Time Order Tracking", "MySQL Relational DB"],
+      "techStack": ["HTML", "CSS", "JavaScript", "MySQL", "Stripe API", "Node.js", "Express"],
+      "githubUrl": "https://github.com/SreeVardhan010",
+      "liveDemoUrl": "https://github.com/SreeVardhan010",
+      "architectureNotes": "Designed normalized relational MySQL database schemas for menu items, customer accounts, and real-time order state updates.",
+      "featured": true,
+      "radarScore": 91
+    },
+    {
+      "id": "proj-music-recommendation",
+      "title": "Audio Attribute Music Recommendation Engine",
+      "subtitle": "Personalized song recommendation engine leveraging audio feature analysis",
+      "category": "Data Systems",
+      "problem": "Users struggle to discover new songs matching their acoustic preferences without effective content-based filtering engines.",
+      "solution": "Engineered a content-filtering recommendation algorithm analyzing audio feature attributes and user feedback vectors to deliver personalized track recommendations.",
+      "businessImpact": "Enhanced recommendation relevance and discovery by incorporating real-time user feedback scoring into filtering loops.",
+      "metrics": ["Content Filtering Engine", "Real-time Feedback Vector", "Audio Attribute Matching"],
+      "techStack": ["Python", "Pandas", "Scikit-Learn", "NumPy", "Jupyter Notebook"],
+      "githubUrl": "https://github.com/SreeVardhan010",
+      "liveDemoUrl": "https://github.com/SreeVardhan010",
+      "architectureNotes": "Computed cosine similarity matrices across normalized track acoustic vectors (danceability, energy, valence) for sub-50ms song retrieval.",
+      "featured": true,
+      "radarScore": 89
+    }
+  ],
+  "skillCategories": [
+    {
+      "id": "core-languages",
+      "categoryName": "Programming & Core Engineering",
+      "icon": "Code2",
+      "description": "Strong fundamentals in Object-Oriented programming, algorithms, and web tech",
+      "skills": [
+        { "name": "Python", "level": 94, "nodeType": "core", "description": "NumPy, Pandas, Scikit-Learn, TensorFlow, Librosa, PySpark", "linkedSkills": ["Scikit-Learn", "Apache Spark", "SQL"], "tag": "Primary" },
+        { "name": "Java & DSA", "level": 88, "nodeType": "core", "description": "Data Structures, Algorithms, OOP, Multithreading, Eclipse IDE", "linkedSkills": ["Python", "SQL"], "tag": "Core" },
+        { "name": "SQL & Databases", "level": 90, "nodeType": "core", "description": "MySQL, MongoDB, Schema Normalization, Complex Queries & Joins", "linkedSkills": ["Python", "Java & DSA"], "tag": "Databases" },
+        { "name": "Web Technologies", "level": 85, "nodeType": "core", "description": "HTML5, CSS3, JavaScript, Responsive UI Layouts", "linkedSkills": ["Python"], "tag": "Full-Stack" }
+      ]
+    },
+    {
+      "id": "ml-ai-frameworks",
+      "categoryName": "Machine Learning & Data Science",
+      "icon": "BrainCircuit",
+      "description": "Predictive modeling, deep learning, feature engineering, and audio signal AI",
+      "skills": [
+        { "name": "XGBoost & Scikit-Learn", "level": 92, "nodeType": "framework", "description": "Classification, Hyperparameter Tuning, SMOTE, Model Evaluation", "linkedSkills": ["Python", "SQL & Databases"], "tag": "Specialist" },
+        { "name": "TensorFlow & Deep Learning", "level": 84, "nodeType": "framework", "description": "Neural Networks, Audio Classification, Model Training", "linkedSkills": ["Python"], "tag": "Applied AI" },
+        { "name": "Feature Engineering", "level": 90, "nodeType": "framework", "description": "MFCCs, Spectrograms, Data Preprocessing, Feature Selection", "linkedSkills": ["Python", "XGBoost & Scikit-Learn"], "tag": "Data Prep" },
+        { "name": "Audio AI (librosa)", "level": 86, "nodeType": "framework", "description": "Speech Emotion Recognition, Acoustic Feature Extraction", "linkedSkills": ["TensorFlow & Deep Learning"], "tag": "Domain AI" }
+      ]
+    },
+    {
+      "id": "data-infra",
+      "categoryName": "Data Engineering & Cloud Tools",
+      "icon": "Database",
+      "description": "Distributed big data stream processing, container basics, and Linux platforms",
+      "skills": [
+        { "name": "Apache Spark", "level": 86, "nodeType": "db", "description": "Distributed Data Processing, PySpark, Resilient Distributed Datasets", "linkedSkills": ["Python", "Apache Kafka"], "tag": "Big Data" },
+        { "name": "Apache Kafka", "level": 84, "nodeType": "db", "description": "Real-Time Message Streaming, Producer/Consumer Pipeline Ingestion", "linkedSkills": ["Apache Spark"], "tag": "Streaming" },
+        { "name": "Git & GitHub", "level": 90, "nodeType": "cloud", "description": "Version Control, Branching Workflows, Collaboration & Project Tracking", "linkedSkills": ["Python"], "tag": "Dev Tools" },
+        { "name": "Linux & Kubernetes (Basics)", "level": 80, "nodeType": "cloud", "description": "Command Line Scripting, Container Deployment Concepts", "linkedSkills": ["Git & GitHub"], "tag": "DevOps" }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-[#1]",
+      "company": "SRM University, Chennai",
+      "role": "B.Tech in Computer Science and Engineering",
+      "location": "Chennai, India",
+      "duration": "JUL 2022 – MAY 2026",
+      "type": "Degree Program",
+      "description": "Final-year Computer Science undergraduate with exceptional academic standing (CGPA 9.05 / 10). Specialized in Machine Learning, Big Data Engineering, and Web Systems Development.",
+      "metrics": [
+        "Maintained top-tier CGPA of 9.05 / 10 across rigorous CS coursework.",
+        "Completed NPTEL Certifications in Machine Learning, Data Science, Data Mining, and Algorithms.",
+        "Engineered 4+ end-to-end projects covering Big Data Streaming, Audio Signal AI, and Full-Stack Web."
+      ],
+      "achievements": [
+        "NPTEL Certified in Machine Learning & Data Science",
+        "Built Kafka-Spark Churn Prediction Engine",
+        "Developed Speech Emotion Deep Learning System"
+      ],
+      "techUsed": ["Python", "Java", "SQL", "Apache Spark", "Apache Kafka", "XGBoost", "TensorFlow"]
+    },
+    {
+      "id": "exp-[#2]",
+      "company": "Narayana Junior College, Hyderabad",
+      "role": "Intermediate (MPC — Math, Physics, Chemistry)",
+      "location": "Hyderabad, India",
+      "duration": "JUN 2020 – MAR 2022",
+      "type": "Pre-University",
+      "description": "Completed Senior Secondary Education with high distinction (CGPA 9.6 / 10), specializing in Mathematics, Physics, and Advanced Science fundamentals.",
+      "metrics": [
+        "Achieved outstanding academic score of CGPA 9.6 / 10.",
+        "Developed strong analytical problem-solving foundation for computer science."
+      ],
+      "achievements": [
+        "Top Academic Performer in Mathematics & Physics",
+        "Strong foundation in logical reasoning & calculus"
+      ],
+      "techUsed": ["Mathematics", "Physics", "Analytical Problem Solving"]
+    },
+    {
+      "id": "exp-[#3]",
+      "company": "Narayana Olympiad School, Hyderabad",
+      "role": "Secondary School Certificate (SSC)",
+      "location": "Hyderabad, India",
+      "duration": "JUN 2019 – MAR 2020",
+      "type": "Schooling",
+      "description": "Graduated Secondary School with a perfect CGPA of 10.0 / 10.",
+      "metrics": [
+        "Achieved Perfect CGPA score of 10.0 / 10."
+      ],
+      "achievements": [
+        "Perfect Score 10.0 CGPA Award"
+      ],
+      "techUsed": ["Mathematics", "Science", "Logic"]
+    }
+  ],
+  "terminalWelcomeMessage": [
+    "============================================================",
+    " SREEVARDHAN CAPILAI // STARK-HUD OPERATING SYSTEM v4.2    ",
+    " COMPUTER SCIENCE UNDERGRAD @ SRM UNIVERSITY (CGPA 9.05)   ",
+    "============================================================",
+    " Type 'help' to list available commands or 'sudo hire' for recruiter protocol.",
+    " Quick commands: 'projects', 'skills', 'contact', 'stats', 'clear'"
+  ]
+}
